@@ -1,0 +1,75 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+   
+}
+
+/* 
+##################################################
+############### Box start#########################
+##################################################
+*/
+.box {
+    background-color: white;
+    width: 65%;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.box__img {
+    width: 45%;
+    height: 400px;
+    align-items: center;
+}
+
+.box__content {
+    padding: 50px 15px 0 0;
+}
+
+button {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    width: 139px;
+    height: 38px;
+    margin-bottom: 25px;
+}
+
+.box__title {
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+.box__i{
+    font-size: 15px;
+    text-decoration-line:line-through;
+}
+.box__txt{
+    font-size: 13px; 
+    width: 566px;
+    padding-bottom: 13px;
+    
+}
+.box__link{
+    background-color: aqua;
+    color: white;
+    border-radius: 15px;
+    padding: 9px 237px;
+    align-items:center;
+}
+/* 
+##################################################
+############### Box end ##########################
+##################################################
+*/
