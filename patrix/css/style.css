@@ -1,0 +1,210 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    margin: 0 ;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/*############################################
+############# NAV START ######################
+############################################## 
+*/
+#nav{
+    
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    
+}
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+    
+}
+.nav__about{
+    display: flex;
+    align-items:center;
+    column-gap: 15px;
+}
+.about__link{
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+    color: white;
+    opacity: 70%;
+    transition: 0.7s;
+    text-decoration-line: none;
+}
+.about__link:hover{
+    opacity: 100%;
+}
+.about__btn{
+    font-family: "Poppins-Bold";
+    border: 0.1rem solid rgba(255, 255, 255, 0.6);
+    background-color: #fff;
+    padding: 13.4px 30px 13.4px 30px;
+    border-radius: 50px;
+    transition: 1s;
+}
+.fa-phone{
+    background-color: #9926f0;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 9px;
+    transition: 1s;
+    margin-left: 20px;
+    
+}
+.about__btn:hover{
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    color: white;
+}
+.about__btn:hover .fa-phone{
+    background-color: black;
+    color:white;
+}
+
+/*############################################
+############# NAV END ########################
+############################################## 
+*/
+
+
+
+
+/*############################################
+############# HEADER START ###################
+############################################## 
+*/
+#header{
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+    padding-top: 160px;
+    width: 100%;
+    height: 100%;
+    
+}
+.header__content{
+    width: 546px;
+    float: left;
+}
+.header__title{
+    font-family: "Poppins-Bold";
+    font-size: 85px;
+    color: white;
+}
+.header__txt{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+.fa-arrow-right{
+    background-color: #9926f0;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 9px;
+    transition: 1s;
+    margin-left: 20px;
+}
+.about__btn:hover .fa-arrow-right{
+    background-color: black;
+    color:white;
+}
+.header__img-content{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    
+}
+.fa-play{
+    background-color: #9926f0;
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    border-radius: 50%;
+    transition: 1s;
+    padding: 25px 30px;
+    position: absolute;
+    top: 187px;
+    right: 289px;
+    
+}
+/*############################################
+################ HEADER END ##################
+############################################## 
+*/
+
+
+
+/*############################################
+############# SECTION START ##################
+############################################## 
+*/
+.main__content{
+    padding-bottom: 80px;
+    
+}
+.main__txt{
+    font-family: "Poppins-Bold";
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.box::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #9926f0;
+}
+.box::after {
+    content: "";
+    width: 2rem;
+    padding-top: 0.5rem;
+    height: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: #9926f0;
+    margin-bottom: 48px;
+}
+.main__images{
+    display: flex;
+    justify-content: space-between;
+}
+.img__back{
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    width: 300px; 
+    padding: 8px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.main__img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*############################################
+############## SECTION END ###################
+############################################## 
+*/
