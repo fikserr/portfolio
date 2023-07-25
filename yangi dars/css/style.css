@@ -1,0 +1,57 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    transition: 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* .box:hover{
+    /* transform:perspective(1000px) rotateZ(360deg); */
+/* transform: perspective(1000px) skewX(360deg); */
+/* transform: scale(1.2); */
+/* input{
+    margin: 200px;
+}
+
+input:focus{
+    background-color: brown;
+    border: none;
+    outline: 1px solid blue;
+    border-radius: 10px;
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    float: left;
+} */
+/* even jup */
+/* odd tog' */
+/* .cleans{
+    clear: both;
+}
+div:nth-child(3){
+    background-color: black;
+} */
+button{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(108, 146, 146);
+    bottom: none;
+    color: white;
+}
+.hover{
+    width: 180px;
+    height: 200px;
+    background-color: cyan;
+    display: none;
+}
+.main:hover .hover{
+    display: block;
+}
