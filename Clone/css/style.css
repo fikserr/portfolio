@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 10px;
+    background-color: rgba(186, 184, 182, 0.716);
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+    background-color: white;
+    border-radius: 25px;
+}
+/* #############################################
+################ NAV START #####################
+################################################
+*/
+#nav{
+    
+}
+.nav__content{
+    height:270px;
+    display: flex;
+    
+}
+.nav__img{
+    height: 250px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.nav__text{
+    width: 1000;
+    margin-left: 10px;
+}
+.nav__txt-content{
+    display: flex;
+    padding-top: 20px;
+}
+
+.bold__txt{
+    font-size: 20px;
+}
+.bold{
+    padding-right: 45px;
+}
+/* #############################################
+################ NAV START #####################
+################################################
+*/
