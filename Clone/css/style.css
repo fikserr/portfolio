@@ -1,51 +1,147 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     margin-top: 10px;
     background-color: rgba(186, 184, 182, 0.716);
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 1320px;
-    background-color: white;
-    border-radius: 25px;
 }
+
 /* #############################################
 ################ NAV START #####################
 ################################################
 */
-#nav{
-    
-}
-.nav__content{
-    height:270px;
+
+.nav__content {
+    height: 270px;
     display: flex;
-    
+    background-color: white;
+    border-radius: 25px;
+
 }
-.nav__img{
+
+.nav__img {
     height: 250px;
     padding-left: 10px;
     border-radius: 25px;
 }
-.nav__text{
+
+.nav__text {
     width: 1000;
     margin-left: 10px;
 }
-.nav__txt-content{
+
+.nav__txt-content {
     display: flex;
     padding-top: 20px;
 }
 
-.bold__txt{
+.bold__txt {
     font-size: 20px;
 }
-.bold{
+
+.bold {
     padding-right: 45px;
 }
+
 /* #############################################
-################ NAV START #####################
+################ NAV END #######################
+################################################
+*/
+.link {
+    padding-top: 20px;
+}
+
+.lorem__link {
+    color: black;
+}
+
+/* #############################################
+################ malumot START #################
+################################################
+*/
+.malumot__link {
+    font-weight: 900;
+    color: black;
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+.malumot__link>a {
+    color: black;
+}
+
+.malumot__content {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+/* #############################################
+################ malumot END ###################
+################################################
+*/
+
+
+
+
+/* #############################################
+################ DOKUMENT START ################
+################################################
+*/
+
+.dokument__content {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.dok__check {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.table {
+    width: 98%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 10px;
+    
+
+}
+
+.bosh {
+    border: 2px solid black;
+    height: 30px;
+}
+.bosh1{
+    background-color:rgba(186, 184, 182, 0.716);
+    border: 2px solid black;
+    height: 30px;
+    font-weight: 700;
+}
+.bosh2{
+    background-color: rgba(186, 184, 182, 0.716);
+    text-align: center;
+}
+.table__content{
+    width: 100px;
+    border: 2px solid black;
+}
+/* #############################################
+################ DOKUMENT END ##################
 ################################################
 */
