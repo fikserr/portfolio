@@ -11,13 +11,20 @@
 
 body {
     margin: 0;
-
+    padding: 0;
+    
 }
 
 .container {
     width: 1320px;
     margin: 0px auto;
     padding: 0px;
+    
+}
+
+#main {
+    max-height: 100%;
+    max-width: 1920px;
 }
 
 /* 
@@ -27,13 +34,14 @@ body {
 */
 #header {
     background-color: rgba(241, 242, 251, 1);
-    height: 1026px;
-    overflow: hidden;
+
+
 }
 
 .header__nav {
     display: flex;
     position: relative;
+
 
 }
 
@@ -63,9 +71,21 @@ body {
 
 }
 
+.bar {
+    color: #000;
+    text-align: right;
+    font-size: 30px;
+}
+
+.bar>i {
+    display: none;
+}
+
 .header__content {
     padding-top: 170px;
     position: relative;
+    
+
 }
 
 .header__title {
@@ -139,8 +159,8 @@ body {
 
 .header__girl {
     position: absolute;
-    top: 66px;
-    left: 513px;
+    bottom: 0px;
+    left:283px;
     width: 1164px;
     height: 800px;
 }
@@ -164,6 +184,7 @@ body {
 
 
 .nossos {
+    
     height: 863px;
     background: linear-gradient(121deg, #E9EFF9 0%, rgba(233, 239, 249, 0.00) 100%);
 }
@@ -333,17 +354,20 @@ body {
     height: 161px;
     background: var(--laranja, #FF7008);
 }
-.footer__content{
+
+.footer__content {
     display: flex;
     justify-content: space-between;
     padding-top: 59px;
     align-items: center;
 }
+
 .footer__txt {
     color: #FFF;
     line-height: 20px;
 }
-.footer__images{
+
+.footer__images {
     color: white;
     display: flex;
     column-gap: 22px;
@@ -354,3 +378,122 @@ body {
 |-------------------footer end-----------------------|
 |----------------------------------------------------|
 */
+
+
+
+/*
+|----------------------------------------------------|
+|---------------Adaptatsiya start--------------------|
+|----------------------------------------------------|
+*/
+
+
+
+/*
+|----------------------------------------------------|
+|---------------Adaptatsiya end----------------------|
+|----------------------------------------------------|
+*/
+@media screen and (max-width:700px) {
+    #main {
+        width: 1000px;
+    }
+
+    .container {
+        width: 844px;
+    }
+
+    #header {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo {
+        font-size: 80px;
+        padding-left: 10px;
+
+    }
+
+    .logo__img {
+        font-size: 90px;
+    }
+
+    .part__li {
+        display: none;
+    }
+
+    .bar>i {
+        display: block;
+        position: absolute;
+        right: 84px;
+        padding-top: 17px;
+        font-size: 80px;
+    }
+
+    .header__content {
+        z-index: 2;
+        padding: 58px 0 73px 25px;
+
+
+    }
+
+    .header__title {
+        width: 40%;
+        font-size: 45px;
+        z-index: 2;
+    }
+
+    .header__txt {
+        padding-top: 15px;
+        font-size: 28px;
+        text-align: justify;
+        width: 680px;
+        z-index: 2;
+        padding-bottom: 21px;
+    }
+
+    .header__img {
+        margin-top: 25px;
+    }
+
+    .header__img-txt {
+        position: absolute;
+        top: 700px;
+        left: 369px;
+
+    }
+
+    .header__girl {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    .nossos{
+        height: 1855px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .portfolio{
+        height: 4714px;
+    }
+    .cards__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .footer{
+        width: 1000px;
+    }
+}
